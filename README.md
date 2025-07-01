@@ -20,8 +20,8 @@ Este repositório demonstra o uso do pacote **Thiagosza.RabbitMq.Worker** para im
 
 ### 1. Clonar o repositório
 ```bash
-git clone <url-do-repositorio> 
-cd <nome-do-repositorio>
+git clone https://github.com/ThiagoSonza/csharp-rabbitmq.git
+cd csharp-rabbitmq
 ```
 
 ### 2. Subir o RabbitMQ com Docker Compose

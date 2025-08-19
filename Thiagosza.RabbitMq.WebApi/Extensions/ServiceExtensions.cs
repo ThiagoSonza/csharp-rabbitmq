@@ -19,7 +19,7 @@ public static class ServiceExtensions
                 h.Password = config.Password;
             });
 
-            //configure.AddConsumer<EventConsumer>(config.Queues.QueueToConsumer);
+            configure.AddConsumer<EventConsumer>(config.Queues.QueueToConsumer);
             configure.AddProducer<EventMessage>(config.Queues.QueueToProducer);
         });
 
